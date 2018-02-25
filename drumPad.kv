@@ -1,0 +1,70 @@
+<Button>:
+        font_size: 40
+        background_color: [1, 0.9, 0, 1]
+        foreground_color: [1, 0.75, 0, 1]
+        size_hint: 0.25, 0.25
+
+<FloatLayout>:
+        Button:
+                pos_hint: {"right": 0.25, "top": 0.25}
+                on_press: root.onTouchDown(app.kick1)
+
+        Button:
+                pos_hint: {"right": 0.5, "top": 0.25}
+                on_press: root.onTouchDown(app.kick2)
+
+        Button:
+                pos_hint: {"right": 0.75, "top": 0.25}
+                on_press: root.onTouchDown(app.kick3)
+
+        Button:
+                pos_hint: {"right": 1, "top": 0.25}
+                on_press: root.onTouchDown(app.kick4)
+
+        Button:
+                pos_hint: {"right": 0.25, "top": 0.5}
+                on_press: root.onTouchDown(app.clap1)
+
+        Button:
+                pos_hint: {"right": 0.5, "top": 0.5}
+                on_press: root.onTouchDown(app.clap2)
+
+        Button:
+                pos_hint: {"right": 0.75, "top": 0.5}
+                on_press: root.onTouchDown(app.clap3)
+
+        Button:
+                pos_hint: {"right": 1, "top": 0.5}
+                on_press: root.onTouchDown(app.clap4)
+
+        Button:
+                pos_hint: {"right": 0.25, "top": 0.75}
+                on_press: root.onTouchDown(app.eight081)
+
+        Button:
+                pos_hint: {"right": 0.5, "top": 0.75}
+                on_press: root.onTouchDown(app.eight082)
+
+        Button:
+                pos_hint: {"right": 0.75, "top": 0.75}
+                on_press: root.onTouchDown(app.hat1)
+
+        Button:
+                pos_hint: {"right": 1, "top": 0.75}
+                on_press: root.onTouchDown(app.hat2)
+
+        Button:
+                pos_hint: {"right": 0.25, "top": 1}
+                on_press: root.onTouchDown(app.snare1)
+
+        Button:
+                pos_hint: {"right": 0.5, "top": 1}
+                on_press: root.onTouchDown(app.snare2)
+
+        Button:
+                pos_hint: {"right": 0.75, "top": 1}
+                on_press: root.onTouchDown(app.snare3)
+
+        Button:
+                pos_hint: {"right": 1, "top": 1}
+                on_press: root.onTouchDown(app.snare4)
